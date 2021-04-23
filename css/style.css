@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.m-tb{
+    margin: 10px 0;
+}
+
+.main-side-dx, .main-side-sx{
+    width: 25%;
+}
+
+.main-section{
+    width: calc(50% - 80px);
+    margin: 0 40px;
+}
+
+.float-l{
+    float: left;
+}
+
+.widget{
+    width: 100%;
+}
+
+footer{
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* DEBUG - da eliminare------------- */
+.debug .container{
+    /* background-color: aqua; */
+    /* height: 800px; */
+}
+
+.debug header{
+    background-color: red;
+    height: 400px;
+}
+
+.debug .header-top{
+    background-color: blue;
+    height: 90%;
+}
+
+.debug .header-menu{
+    background-color: brown;
+    height: 10%;
+}
+
+.debug .main-side-sx{
+    background-color: violet;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+.debug .main-section{
+    background-color: violet;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+.debug .main-side-dx{
+    background-color: violet;
+    /* border: 1px solid black; */
+}
+
+.debug .widget{
+    background-color: yellow;
+    height: 150px;
+}
+
+.debug footer{
+    background-color: tomato;
+}

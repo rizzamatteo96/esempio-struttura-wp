@@ -7,38 +7,52 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Esercizio sistemazione layout</title>
 </head>
-<body>
+<body class="debug">
     
     <!-- inizio container principale -->
     <div class="container">
 
         <!-- inizio header -->
         <header>
+            <!-- inizio header top -->
+            <div class="header-top">
 
-            <div></div>
-            <nav></nav>
-            
+            </div>
+            <!-- fine header top -->
+
+            <!-- inizio header menù -->
+            <nav class="header-menu"></nav>
+            <!-- fine header menù -->
+
         </header>
         <!-- fine header -->
 
         <!-- inizio main -->
-        <main>
+        <main class="clearfix">
+            <!-- inizio side sx -->
+            <aside class="main-side-sx float-l"></aside>
+            <!-- fine side sx -->
 
-            <aside></aside>
+            <!-- inzio sezione centrale -->
+            <section class="main-section float-l"></section>
+            <!-- fine sezione centrale -->
 
-            <section></section>
-
-            <aside>
-                <div></div>
-                <div></div>
-                <div></div>
+            <!-- inizio sezione destra -->
+            <aside class="main-side-dx float-l">
+                <div class="widget"></div>
+                <div class="widget m-tb"></div>
+                <div class="widget"></div>
             </aside>
+            <!-- fine sezione destra -->
 
         </main>
         <!-- fine main -->
 
         <!-- inizio footer -->
-        <footer></footer>
+        <footer>
+            <div class="footer-top"></div>
+            <div class="footer-bottom"></div>
+        </footer>
         <!-- fine footer -->
 
     </div>
